@@ -3,9 +3,12 @@
 
 This workshop was designed for UC Berkeley's PiE Datathon, sponsored by Microsoft.
 
-We introduce you to Microsoft Azure's cognitive services using two datasets. In this repository, you'll find the materials to conduct text analytics on one of two datasets using the Cognitive Services Text Analytics API.
+Team: Gaurav Shah, Andy Fang, Rafael Ostrea
 
-The slides used for the demo are included in this repository.
+Overview: Our team analyzed different trends within a customer service dataset, making use of Azure to conduct sentiment analysis of product reviews and complaints as well as Pandas and Seaborn to generate user-friendly graphs of our findings. Our presentation won the Microsoft Best EDA (Exploratory Data Analysis) Award.
+
+Presentation: https://docs.google.com/presentation/d/1nEv2cX69ds4IBE1wGlQrflimhIB4CgeZ0N0IbvaPtCc/edit?usp=sharing
+
 
 ## Setup Requirements
 - [Free Azure student subscription](https://azure.microsoft.com/en-us/free/students/)
@@ -40,13 +43,7 @@ When creating your resource, set the following configuration:
 
 ## The datasets
 
-### Option 1: Seattle Police Dataset
-Description: "Records of Officer Involved Shootings (OIS) from 2005 to the present, including a brief narrative synopsis."
-
-More information about this dataset: [Seattle Police Data](https://data.seattle.gov/Public-Safety/SPD-Officer-Involved-Shooting-OIS-Data/mg5r-efcm)
-
-
-### Option 2: Customer Service Data
+### Customer Service Data
 Description: These are records of support tickets that a fictitious hardware general store has received in the form of emails or audio converted to text.
 
 Column descriptions
@@ -69,4 +66,4 @@ Theme descriptions
 - services: delivery, account, payment, and installation services
 - other
 
-Created by the Microsoft OCP Azure Data & AI Team
+Credit: Azure tutorial and datasets created by the Microsoft OCP Azure Data & AI Team
